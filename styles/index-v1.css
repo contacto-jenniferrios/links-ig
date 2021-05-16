@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #EDEDED;
+}
+#root {
+    height: 100%;
+}
+
+@font-face {
+    font-family: jr-signature;
+    src: url(../font/GathelineSignature.ttf);
+}
+
+#root #main-wrapper {
+    margin: auto;
+    background: #ededed url(../img/main-bg.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 400px;
+    height: 100%;
+    padding: 40px 20px 20px 20px;
+    overflow: auto;
+}
+
+#root #main-wrapper #content {
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+
+#root #main-wrapper #content #header {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+#root #main-wrapper #content #header .profile-container {
+    position: relative;
+    top: -40px;
+}
+
+#root #main-wrapper #content #header .profile-container img {
+    max-width: 150px;
+    display: block;
+    border-radius: 150px 150px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#root #main-wrapper #content #header .profile-container span.personal-msg {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    right: -60px;
+    transform: rotate(-5deg);
+    font-family: jr-signature, serif;
+    font-size: 2.5em;
+    color: #2A2423;
+}
+
+#root #main-wrapper #content #header div.main-header {
+    position: relative;
+    top: -60px;
+}
+
+#root #main-wrapper #content #header div.main-header h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.2em;
+}
+
+#root #main-wrapper #content #header .main-header p {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+}
+
+#root #main-wrapper #content #body {
+    position: relative;
+    height: 100%;
+    top: -40px;
+}
+
+#body ul.navlink {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+ul.navlink li a {
+    display: block;
+    color: #2A2423;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Public Sans', sans-serif;
+}
+
+ul.navlink li a:hover {
+    background-color: #A47768;
+    color: white;
+}
+
+ul.navlink li {
+    text-align: center;
+    border-bottom: 2px solid #A47768;
+}
